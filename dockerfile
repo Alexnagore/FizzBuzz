@@ -1,4 +1,4 @@
-FROM php:7.1-apache
+FROM php:7.1-cli
 ENV COMPOSER_ALLOW_SUPERUSER=1
 WORKDIR /AlexNagore/FizzBuzz
 RUN apt-get update && apt-get install -y unzip
